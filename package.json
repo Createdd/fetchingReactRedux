@@ -9,7 +9,7 @@
     "preinstall": "node tools/nodeVersionCheck.js",
     "start-message": "babel-node tools/startMessage.js",
     "prestart": "npm-run-all --parallel start-message",
-    "start": "npm-run-all --parallel test:watch open:src lint:watch",
+    "start": "npm-run-all --parallel test:watch lint:watch",
     "open:src": "babel-node tools/srcServer.js",
     "open:dist": "babel-node tools/distServer.js",
     "lint": "esw webpack.config.* src tools --color",
@@ -28,6 +28,7 @@
   },
   "author": "Daniel Deutsch",
   "dependencies": {
+    "materialize-css": "^0.99.0",
     "object-assign": "4.1.0",
     "react": "15.5.4",
     "react-dom": "15.5.4",
@@ -44,6 +45,7 @@
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
     "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-react-constant-elements": "6.23.0",
     "babel-plugin-transform-react-remove-prop-types": "0.4.6",
     "babel-polyfill": "6.23.0",
@@ -73,7 +75,7 @@
     "opn-cli": "3.1.0",
     "postcss-loader": "1.2.1",
     "prompt": "1.0.0",
-    "prop-types": "15.5.10",
+    "prop-types": "^15.5.10",
     "react-hot-loader": "3.0.0-beta.6",
     "react-test-renderer": "15.5.4",
     "redux-immutable-state-invariant": "2.0.0",
@@ -120,7 +122,8 @@
         ],
         "plugins": [
           "transform-react-constant-elements",
-          "transform-react-remove-prop-types"
+          "transform-react-remove-prop-types",
+          "transform-class-properties"
         ]
       },
       "test": {
