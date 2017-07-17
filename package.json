@@ -28,6 +28,7 @@
   },
   "author": "Daniel Deutsch",
   "dependencies": {
+    "axios": "^0.16.2",
     "materialize-css": "^0.99.0",
     "object-assign": "4.1.0",
     "react": "15.5.4",
