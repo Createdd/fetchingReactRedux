@@ -5,7 +5,7 @@
   "engines": {
     "npm": ">=3"
   },
-  "homepage": "https://DDCreationStudios.github.io/fetchingReactRedux",
+  "homepage": "https://ddcreationstudios.github.io/fetchingReactRedux/",
   "scripts": {
     "preinstall": "node tools/nodeVersionCheck.js",
     "start-message": "babel-node tools/startMessage.js",
