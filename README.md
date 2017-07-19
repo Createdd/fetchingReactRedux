@@ -13,9 +13,13 @@ ___
 An example for Fetching with React and Redux
 ___
 
+## Looks like this
+
+
+<p align="center"><img src="http://g.recordit.co/Xlk6ijJwiC.gif" alt="gif"/></p>
 
 ## Scaffolded with
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3129129/22811426/bb69dc06-ef0c-11e6-8092-a0bea9060b35.png"/></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/3129129/22811426/bb69dc06-ef0c-11e6-8092-a0bea9060b35.png" alt="pic"/></p>
 
 (React Slingshot is a comprehensive starter kit for rapid application development using React.)
