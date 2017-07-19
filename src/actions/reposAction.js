@@ -8,13 +8,13 @@ export function loadReposSuccess(repos) {
 	};
 }
 
-export function loadRepos() {
+export function loadRepos(user) {
 	return function(dispatch) {
 		return axios
-			.get('https://api.github.com/users/DDCreationStudios/repos')
+			.get(`https://api.github.com/users/${user}/repos`)
 			.then(repos => {
 				dispatch(loadReposSuccess(repos.data));
-				console.warn(repos.data);
+				console.log("receiving following data: "+repos.data);
 			})
 			.catch(err => {
 				throw err;

@@ -11,7 +11,12 @@ const Header = () => {
 					</IndexLink>
 				</li>
 				<li>
-					<Link to="/about"><i className="fa fa-info-circle material-icons" aria-hidden="true" /></Link>
+					<Link to="/about">
+						<i
+							className="fa fa-info-circle material-icons"
+							aria-hidden="true"
+						/>
+					</Link>
 				</li>
 			</ul>
 		</nav>
