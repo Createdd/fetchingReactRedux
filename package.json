@@ -5,6 +5,7 @@
   "engines": {
     "npm": ">=3"
   },
+  "homepage": "https://DDCreationStudios.github.io/fetchingReactRedux",
   "scripts": {
     "preinstall": "node tools/nodeVersionCheck.js",
     "start-message": "babel-node tools/startMessage.js",
@@ -24,11 +25,14 @@
     "test:cover:CI": "npm run test:CI -- --coverage && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
     "test:watch": "npm run test -- --watch",
     "open:cover": "npm run test:cover && opn ./coverage/lcov-report/index.html",
-    "analyze-bundle": "babel-node ./tools/analyzeBundle.js"
+    "analyze-bundle": "babel-node ./tools/analyzeBundle.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Daniel Deutsch",
   "dependencies": {
     "axios": "^0.16.2",
+    "gh-pages": "^1.0.0",
     "materialize-css": "^0.99.0",
     "object-assign": "4.1.0",
     "react": "15.5.4",
