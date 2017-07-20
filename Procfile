@@ -1,1 +1,1 @@
-web: npm run open:dist
+web: ./node_modules/.bin/babel-node tools/srcServer.js
