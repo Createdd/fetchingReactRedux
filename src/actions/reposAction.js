@@ -14,7 +14,6 @@ export function loadRepos(user) {
 			.get(`https://api.github.com/users/${user}/repos`)
 			.then(repos => {
 				dispatch(loadReposSuccess(repos.data));
-				console.log("receiving following data: "+repos.data);
 			})
 			.catch(err => {
 				throw err;
