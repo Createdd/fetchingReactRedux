@@ -4,14 +4,13 @@
   "description": "",
   "engines": {
     "node": "8.1.4",
-    "npm": ">=3"
+    "yarn": "0.27.5"
   },
   "homepage": "https://ddcreationstudios.github.io/fetchingReactRedux/",
   "scripts": {
-    "preinstall": "node tools/nodeVersionCheck.js",
-    "start-message": "babel-node tools/startMessage.js",
-    "prestart": "npm-run-all --parallel start-message",
-    "start": "micro dist/index",
+    "xstart-message": "babel-node tools/startMessage.js",
+    "xprestart": "npm-run-all --parallel start-message",
+    "start": "npm-run-all --parallel test:watch open:src lint:watch",
     "open:src": "babel-node tools/srcServer.js",
     "open:dist": "babel-node tools/distServer.js",
     "lint": "esw webpack.config.* src tools --color",
