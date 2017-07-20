@@ -1,1 +1,1 @@
-web: npm start
+web: babel-node tools/distServer.js
