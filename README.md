@@ -27,4 +27,9 @@ ___
 
 (React Slingshot is a comprehensive starter kit for rapid application development using React.)
 
+## See on Youtube:
+
+[<img src="./src/youtubeScreenshot.png" alt="pic"/>](https://www.youtube.com/watch?v=3U5mD-iXH1U)
+
+
 [![forthebadge](http://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/built-with-science.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](http://forthebadge.com)
