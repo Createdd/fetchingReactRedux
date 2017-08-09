@@ -5,7 +5,7 @@
 
 ##### Daniel Deutsch <kbd>[Createdd.com](http://createdd.com/) / [Github](https://www.freecodecamp.com/ddcreationstudios) / [LinkedIn](https://www.linkedin.com/in/daniel-deutsch-b95611127) / [CodePen](http://codepen.io/ddcreationstudios/)  / [Medium](https://medium.com/@ddcreationstudi) / [Hashnode](https://hashnode.com/@DDCreationStudio) / [E-Mail](mailto:dd@createdd.com)</kbd>
 
-# 🌐 Fetching in React'n'Redux
+# 🌐 Fetching Github Repos with React and Redux
 
  ![App Progress Status](https://img.shields.io/badge/Status-Finished-0520b7.svg?style=plastic) ![Heroku](https://heroku-badge.herokuapp.com/?app=fetchingreactredux&style=svg=1)
 
@@ -29,7 +29,7 @@ ___
 
 ## See on Youtube:
 
-[<img src="./src/youtubeScreenshot.png" alt="pic"/>](https://www.youtube.com/watch?v=3U5mD-iXH1U)
+[<img src="./src/youtubeScreenshot.png" alt="pic" height=200 />](https://www.youtube.com/watch?v=3U5mD-iXH1U)
 
 
 [![forthebadge](http://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/built-with-science.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](http://forthebadge.com)
